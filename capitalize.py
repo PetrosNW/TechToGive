@@ -1,6 +1,6 @@
-name = input("Input Your Full Name: ")
+text = input("Input any text: ")
 
-def capital(name):
-    return name.title()
+def capital(text):
+    return text.title()
 
-print(capital(name))
+print(capital(text)) # call the function
